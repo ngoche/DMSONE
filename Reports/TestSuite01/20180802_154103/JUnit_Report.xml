@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TestSuite01" time="29" tests="7" failures="0" errors="0">
+   <testsuite name="TestSuite01" tests="7" failures="0" errors="0" time="29" timestamp="2018-08-02 15:41:04" hostname="ngocv - 192.168.1.37" id="Test Suites/TestSuite01">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\KatalonDMSONE\\DMSONE\\Reports\\TestSuite01\\20180802_154103"/>
+         <property name="logFiles" value="D:\\KatalonDMSONE\\DMSONE\\Reports\\TestSuite01\\20180802_154103\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ngocv - 192.168.1.37"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.5.0.1"/>
+         <property name="browser" value="Chrome 67.0.3396.99"/>
+         <property name="hostAddress" value="192.168.1.37"/>
+         <property name="sessionId" value="2812e010dc9c75f964338aae0d9b5e58"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TC_Login" classname="Test Cases/TC_Login" status="PASSED">
+         <system-out><![CDATA[2018-08-02 15:41:04 - [TEST_CASE][PASSED] - Test Cases/TC_Login: Test Cases/TC_Login
+
+2018-08-02 15:41:05 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-08-02 15:41:07 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-08-02 15:41:07 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost:8681/login' successfully
+
+2018-08-02 15:41:08 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8681/login' successfully
+
+2018-08-02 15:41:08 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Page_DMS ONE/input_username'
+
+2018-08-02 15:41:08 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_DMS ONE/input_username'
+
+2018-08-02 15:41:08 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Page_DMS ONE/input_password'
+
+2018-08-02 15:41:08 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_DMS ONE/input_password'
+
+2018-08-02 15:41:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_DMS ONE/input_submit' is clicked on
+
+2018-08-02 15:41:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DMS ONE/input_submit' is clicked on
+
+2018-08-02 15:41:09 - [TEST_STEP][PASSED] - Statement - If (user.equals("") && password.equals("")): Object 'Object Repository/Page_DMS ONE/div_Please enter your login in' is present
+
+2018-08-02 15:41:09 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_DMS ONE/div_Please enter your login in' is present
+
+2018-08-02 15:41:09 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DMS ONE/div_Please enter your login in' is present
+
+2018-08-02 15:41:09 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-08-02 15:41:09 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_Login" classname="Test Cases/TC_Login" status="PASSED">
+         <system-out><![CDATA[2018-08-02 15:41:09 - [TEST_CASE][PASSED] - Test Cases/TC_Login: Test Cases/TC_Login
+
+2018-08-02 15:41:09 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-08-02 15:41:11 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-08-02 15:41:11 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost:8681/login' successfully
+
+2018-08-02 15:41:12 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8681/login' successfully
+
+2018-08-02 15:41:12 - [TEST_STEP][PASSED] - setText: Text 'df' is set on object 'Object Repository/Page_DMS ONE/input_username'
+
+2018-08-02 15:41:12 - [MESSAGE][PASSED] - Text 'df' is set on object 'Object Repository/Page_DMS ONE/input_username'
+
+2018-08-02 15:41:12 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Page_DMS ONE/input_password'
+
+2018-08-02 15:41:12 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_DMS ONE/input_password'
+
+2018-08-02 15:41:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_DMS ONE/input_submit' is clicked on
+
+2018-08-02 15:41:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DMS ONE/input_submit' is clicked on
+
+2018-08-02 15:41:12 - [TEST_STEP][PASSED] - Statement - If (user.equals("") && password.equals("")): null
+
+2018-08-02 15:41:12 - [TEST_STEP][PASSED] - Statement - Else If (user.equals("")): null
+
+2018-08-02 15:41:12 - [TEST_STEP][PASSED] - Statement - Else If (password.equals("")): Object 'Object Repository/Page_DMS ONE/div_You have not filled out th' is present
+
+2018-08-02 15:41:12 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_DMS ONE/div_You have not filled out th' is present
+
+2018-08-02 15:41:12 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DMS ONE/div_You have not filled out th' is present
+
+2018-08-02 15:41:12 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-08-02 15:41:13 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_Login" classname="Test Cases/TC_Login" status="PASSED">
+         <system-out><![CDATA[2018-08-02 15:41:13 - [TEST_CASE][PASSED] - Test Cases/TC_Login: Test Cases/TC_Login
+
+2018-08-02 15:41:13 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-08-02 15:41:15 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-08-02 15:41:15 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost:8681/login' successfully
+
+2018-08-02 15:41:16 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8681/login' successfully
+
+2018-08-02 15:41:16 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Page_DMS ONE/input_username'
+
+2018-08-02 15:41:16 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_DMS ONE/input_username'
+
+2018-08-02 15:41:16 - [TEST_STEP][PASSED] - setText: Text 'sdf' is set on object 'Object Repository/Page_DMS ONE/input_password'
+
+2018-08-02 15:41:16 - [MESSAGE][PASSED] - Text 'sdf' is set on object 'Object Repository/Page_DMS ONE/input_password'
+
+2018-08-02 15:41:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_DMS ONE/input_submit' is clicked on
+
+2018-08-02 15:41:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DMS ONE/input_submit' is clicked on
+
+2018-08-02 15:41:16 - [TEST_STEP][PASSED] - Statement - If (user.equals("") && password.equals("")): null
+
+2018-08-02 15:41:16 - [TEST_STEP][PASSED] - Statement - Else If (user.equals("")): Object 'Object Repository/Page_DMS ONE/div_You have not entered your' is present
+
+2018-08-02 15:41:16 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_DMS ONE/div_You have not entered your' is present
+
+2018-08-02 15:41:16 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DMS ONE/div_You have not entered your' is present
+
+2018-08-02 15:41:16 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-08-02 15:41:17 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_Login" classname="Test Cases/TC_Login" status="PASSED">
+         <system-out><![CDATA[2018-08-02 15:41:17 - [TEST_CASE][PASSED] - Test Cases/TC_Login: Test Cases/TC_Login
+
+2018-08-02 15:41:17 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-08-02 15:41:19 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-08-02 15:41:19 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost:8681/login' successfully
+
+2018-08-02 15:41:19 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8681/login' successfully
+
+2018-08-02 15:41:19 - [TEST_STEP][PASSED] - setText: Text 'sdf' is set on object 'Object Repository/Page_DMS ONE/input_username'
+
+2018-08-02 15:41:19 - [MESSAGE][PASSED] - Text 'sdf' is set on object 'Object Repository/Page_DMS ONE/input_username'
+
+2018-08-02 15:41:19 - [TEST_STEP][PASSED] - setText: Text 'sdfs' is set on object 'Object Repository/Page_DMS ONE/input_password'
+
+2018-08-02 15:41:20 - [MESSAGE][PASSED] - Text 'sdfs' is set on object 'Object Repository/Page_DMS ONE/input_password'
+
+2018-08-02 15:41:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_DMS ONE/input_submit' is clicked on
+
+2018-08-02 15:41:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DMS ONE/input_submit' is clicked on
+
+2018-08-02 15:41:20 - [TEST_STEP][PASSED] - Statement - If (user.equals("") && password.equals("")): null
+
+2018-08-02 15:41:20 - [TEST_STEP][PASSED] - Statement - Else If (user.equals("")): null
+
+2018-08-02 15:41:20 - [TEST_STEP][PASSED] - Statement - Else If (password.equals("")): null
+
+2018-08-02 15:41:20 - [TEST_STEP][PASSED] - Statement - Else: Object 'Object Repository/Page_DMS ONE/div_Username or password incor' is present
+
+2018-08-02 15:41:20 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getUrl().equals("http://localhost:8681/login")): Object 'Object Repository/Page_DMS ONE/div_Username or password incor' is present
+
+2018-08-02 15:41:20 - [MESSAGE][PASSED] - Current window's url is: 'http://localhost:8681/login'
+
+2018-08-02 15:41:20 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_DMS ONE/div_Username or password incor' is present
+
+2018-08-02 15:41:20 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DMS ONE/div_Username or password incor' is present
+
+2018-08-02 15:41:20 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-08-02 15:41:20 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_Login" classname="Test Cases/TC_Login" status="PASSED">
+         <system-out><![CDATA[2018-08-02 15:41:20 - [TEST_CASE][PASSED] - Test Cases/TC_Login: Test Cases/TC_Login
+
+2018-08-02 15:41:20 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-08-02 15:41:22 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-08-02 15:41:22 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost:8681/login' successfully
+
+2018-08-02 15:41:23 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8681/login' successfully
+
+2018-08-02 15:41:23 - [TEST_STEP][PASSED] - setText: Text 'gadmin1' is set on object 'Object Repository/Page_DMS ONE/input_username'
+
+2018-08-02 15:41:23 - [MESSAGE][PASSED] - Text 'gadmin1' is set on object 'Object Repository/Page_DMS ONE/input_username'
+
+2018-08-02 15:41:23 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Page_DMS ONE/input_password'
+
+2018-08-02 15:41:23 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_DMS ONE/input_password'
+
+2018-08-02 15:41:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_DMS ONE/input_submit' is clicked on
+
+2018-08-02 15:41:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DMS ONE/input_submit' is clicked on
+
+2018-08-02 15:41:24 - [TEST_STEP][PASSED] - Statement - If (user.equals("") && password.equals("")): null
+
+2018-08-02 15:41:24 - [TEST_STEP][PASSED] - Statement - Else If (user.equals("")): null
+
+2018-08-02 15:41:24 - [TEST_STEP][PASSED] - Statement - Else If (password.equals("")): Object 'Object Repository/Page_DMS ONE/div_You have not filled out th' is present
+
+2018-08-02 15:41:24 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_DMS ONE/div_You have not filled out th' is present
+
+2018-08-02 15:41:24 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DMS ONE/div_You have not filled out th' is present
+
+2018-08-02 15:41:24 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-08-02 15:41:24 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_Login" classname="Test Cases/TC_Login" status="PASSED">
+         <system-out><![CDATA[2018-08-02 15:41:24 - [TEST_CASE][PASSED] - Test Cases/TC_Login: Test Cases/TC_Login
+
+2018-08-02 15:41:24 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-08-02 15:41:26 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-08-02 15:41:26 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost:8681/login' successfully
+
+2018-08-02 15:41:27 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8681/login' successfully
+
+2018-08-02 15:41:27 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Page_DMS ONE/input_username'
+
+2018-08-02 15:41:27 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_DMS ONE/input_username'
+
+2018-08-02 15:41:27 - [TEST_STEP][PASSED] - setText: Text '123456a@A' is set on object 'Object Repository/Page_DMS ONE/input_password'
+
+2018-08-02 15:41:27 - [MESSAGE][PASSED] - Text '123456a@A' is set on object 'Object Repository/Page_DMS ONE/input_password'
+
+2018-08-02 15:41:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_DMS ONE/input_submit' is clicked on
+
+2018-08-02 15:41:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DMS ONE/input_submit' is clicked on
+
+2018-08-02 15:41:27 - [TEST_STEP][PASSED] - Statement - If (user.equals("") && password.equals("")): null
+
+2018-08-02 15:41:27 - [TEST_STEP][PASSED] - Statement - Else If (user.equals("")): Object 'Object Repository/Page_DMS ONE/div_You have not entered your' is present
+
+2018-08-02 15:41:27 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_DMS ONE/div_You have not entered your' is present
+
+2018-08-02 15:41:27 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DMS ONE/div_You have not entered your' is present
+
+2018-08-02 15:41:27 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-08-02 15:41:28 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_Login" classname="Test Cases/TC_Login" status="PASSED">
+         <system-out><![CDATA[2018-08-02 15:41:28 - [TEST_CASE][PASSED] - Test Cases/TC_Login: Test Cases/TC_Login
+
+2018-08-02 15:41:28 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-08-02 15:41:30 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-08-02 15:41:30 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost:8681/login' successfully
+
+2018-08-02 15:41:31 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8681/login' successfully
+
+2018-08-02 15:41:31 - [TEST_STEP][PASSED] - setText: Text 'gadmin1' is set on object 'Object Repository/Page_DMS ONE/input_username'
+
+2018-08-02 15:41:31 - [MESSAGE][PASSED] - Text 'gadmin1' is set on object 'Object Repository/Page_DMS ONE/input_username'
+
+2018-08-02 15:41:31 - [TEST_STEP][PASSED] - setText: Text '123456a@A' is set on object 'Object Repository/Page_DMS ONE/input_password'
+
+2018-08-02 15:41:31 - [MESSAGE][PASSED] - Text '123456a@A' is set on object 'Object Repository/Page_DMS ONE/input_password'
+
+2018-08-02 15:41:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_DMS ONE/input_submit' is clicked on
+
+2018-08-02 15:41:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DMS ONE/input_submit' is clicked on
+
+2018-08-02 15:41:33 - [TEST_STEP][PASSED] - Statement - If (user.equals("") && password.equals("")): null
+
+2018-08-02 15:41:33 - [TEST_STEP][PASSED] - Statement - Else If (user.equals("")): null
+
+2018-08-02 15:41:33 - [TEST_STEP][PASSED] - Statement - Else If (password.equals("")): null
+
+2018-08-02 15:41:33 - [TEST_STEP][PASSED] - Statement - Else: Object 'Object Repository/Page_SALES.ONE/span_GADMIN1 - GROUP ADMIN' is clickable
+
+2018-08-02 15:41:33 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getUrl().equals("http://localhost:8681/login")): Current window's url is: 'http://localhost:8681/home'
+
+2018-08-02 15:41:33 - [MESSAGE][PASSED] - Current window's url is: 'http://localhost:8681/home'
+
+2018-08-02 15:41:33 - [TEST_STEP][PASSED] - Statement - Else: Object 'Object Repository/Page_SALES.ONE/span_GADMIN1 - GROUP ADMIN' is clickable
+
+2018-08-02 15:41:33 - [TEST_STEP][PASSED] - verifyElementClickable: Object 'Object Repository/Page_SALES.ONE/span_GADMIN1 - GROUP ADMIN' is clickable
+
+2018-08-02 15:41:33 - [MESSAGE][PASSED] - Object 'Object Repository/Page_SALES.ONE/span_GADMIN1 - GROUP ADMIN' is clickable
+
+2018-08-02 15:41:33 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-08-02 15:41:33 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-08-02 15:41:04 - [TEST_SUITE][PASSED] - TestSuite01: Test Cases/TC_Login]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

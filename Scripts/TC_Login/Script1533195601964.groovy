@@ -24,11 +24,25 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://localhost:8681/login')
 
-WebUI.setText(findTestObject('Object Repository/Page_DMS ONE/input_username'), 'dfsd')
+WebUI.setText(findTestObject('Page_DMS ONE/input_username'), user)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_DMS ONE/input_password'), 'OH/3ZpB9qi4=')
+WebUI.setText(findTestObject('Page_DMS ONE/input_password'), password)
 
-WebUI.click(findTestObject('Object Repository/Page_DMS ONE/input_submit'))
+WebUI.click(findTestObject('Page_DMS ONE/input_submit'))
 
-WebUI.click(findTestObject('Object Repository/Page_DMS ONE/div_Username or password incor'))
+if (user.equals('') && password.equals('')) {
+    WebUI.verifyElementPresent(findTestObject('Page_DMS ONE/div_Please enter your login in'), 5 )
+} else if (user.equals('')) {
+    WebUI.verifyElementPresent(findTestObject('Page_DMS ONE/div_You have not entered your'), 5)
+} else if (password.equals('')) {
+    WebUI.verifyElementPresent(findTestObject('Page_DMS ONE/div_You have not filled out th'), 5)
+} else {
+    if (WebUI.getUrl().equals('http://localhost:8681/login')) {
+        WebUI.verifyElementPresent(findTestObject('Object Repository/Page_DMS ONE/div_Username or password incor'), 10)
+    } else {
+        WebUI.verifyElementClickable(findTestObject('Page_SALES.ONE/span_GADMIN1 - GROUP ADMIN'), FailureHandling.CONTINUE_ON_FAILURE)
+    }
+}
+
+WebUI.closeBrowser()
 
